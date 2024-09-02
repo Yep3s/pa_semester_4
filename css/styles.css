@@ -1,106 +1,11 @@
-body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: white;
-    color: black;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.bg-custom {
+    background-color: #17A2B8;
+  }
+
+.text-custom-white {
+    color: #ffffff;
 }
 
-/* Header Styles */
-.header {
-    width: 100%;
-    height: 77px;
-    background-color: rgba(128, 128, 128, 0.78);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 32px;
-    box-sizing: border-box;
-}
-
-.navigation {
-    display: flex;
-    justify-content: flex-end;
-    flex-grow: 1;
-    margin-left: 32px;
-}
-
-.navigation .nav-link {
-    margin-left: 24px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #000; /* Cambia a negro para mejor contraste */
-    background-color: #fff; /* Fondo blanco para mejorar la visibilidad */
-    padding: 8px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.navigation .nav-link:hover {
-    background-color: #000; /* Fondo negro al hacer hover */
-    color: #fff; /* Texto blanco al hacer hover */
-}
-
-/* Main Content Styles */
-.main-content {
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 32px 16px;
-    box-sizing: border-box;
-}
-
-.info-section {
-    max-width: 735px;
-}
-
-.info-title {
-    font-size: 24px;
-    font-weight: 200;
-}
-
-.info-description {
-    font-size: 24px;
-    font-weight: 200;
-}
-
-.image-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.image-placeholder {
-    width: 491px;
-    height: 456px;
-    background-color: #D9D9D9;
-}
-
-.image-caption {
-    margin-top: 16px;
-    font-size: 24px;
-    font-weight: 200;
-}
-
-.footer {
-    width: 100%;
-    height: 222px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0; /* Elimina cualquier padding adicional */
-    box-sizing: border-box;
-    position: relative;
-}
-
-.footer img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Hace que la imagen cubra completamente el footer */
-    object-position: center; /* Centra la imagen si se recorta */
+.custom-text-size {
+  font-size: 3.5rem;
 }

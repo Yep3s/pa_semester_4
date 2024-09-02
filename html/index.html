@@ -1,34 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tourist APP</title>
-<link rel="stylesheet" href="/css/styles.css">
-</head>
-<body>
-    <header class="header">
-        <h1 class="logo">Logo</h1>
-        <nav class="navigation">
-            <a href="index.html" class="nav-link">Inicio</a>
-            <a href="quickStart.html" class="nav-link">Quick Start</a>
-            <a href="sobreNosotros.html" class="nav-link">Sobre Nosotros</a>
-            <a href="ayuda.html" class="nav-link">Ayuda</a>
-        </nav>
-    </header>
-    <main class="main-content">
-        <section class="info-section">
-            <h2 class="info-title">Information About The App</h2>
-            <p class="info-description">Lorem ipsum dolor sit amet consectetur. Sit adipiscing vehicula risus tellus nunc et non tristique in. At turpis augue velit amet viverra metus commodo. Ipsum eget massa dolor morbi. Velit lacus consectetur eget molestie imperdiet orci pretium.</p>
-        </section>
-        <aside class="image-section">
-            <figure class="image-placeholder"></figure>
-            <figcaption class="image-caption">Image</figcaption>
-        </aside>
-    </main>
-    <footer class="footer">
-<img src="/Images/Vector1.png" alt="footer">
+<html lang="es-CO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" type="image/x-icon" href="/Images/LityAppFavicon2.png" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/styles.css" /> 
 
-    </footer>
-</body>
+    <title>Lity App</title>
+  </head>
+
+  <body class="d-flex align-items-center justify-content-center vh-100 bg-custom" >
+            
+    <!---DIV INICIAL CONTAINER---->
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-12">
+            <img src="/images/LityLogoLogin.png" class="img-fluid mx-auto" alt="Logo Litty App" style="width: 25%; height: auto;" />
+            <h2 class="mt-4">Ingresa A Tu Cuenta</h2>
+            <p class="text-custom-white">Bienvenido De Vuelta! Porfavor Ingresa Tus Credenciales.</p>
+        </div> 
+      </div> 
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+        <form method="post">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+            <label for="floatingInput">Email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+            <button type="button" class="btn btn-primary col-12" onclick="window.location.href='/html/controlPanelAdmin.html'">Ingresar</button>
+        </form>
+
+
+
+        </div>
+      </div>
+      
+    </div>
+    <!---DIV FINAL CONTAINER---->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+  </body>
 </html>

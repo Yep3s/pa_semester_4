@@ -9,3 +9,8 @@
 .custom-text-size {
   font-size: 3.5rem;
 }
+
+.custom-button {
+  height: 300px; 
+  max-width: 300px; 
+}

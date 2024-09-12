@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="/css/styles.css" /> 
     <link rel="stylesheet" href="/css/sign-in.css">
+    <link rel="stylesheet" href="/css/animated-bg-login.css">
+
 
   </head>
 
-  <body class="d-flex align-items-center py-4">
+  <body class="d-flex align-items-center py-4 animated-bg-login">
 
     <main class="form-signin w-100 m-auto">
   <form>
-    <img class="mb-4" src="/Images/LityLogoLogin.png" alt="" >
+    <img class="mb-4" src="/Images/LityLogoLogin.png" alt="Logo Lity App" >
     <h1 class="h3 mb-3 fw-normal ">Ingresa Tus Datos</h1>
 
     <div class="form-floating">
@@ -29,7 +31,7 @@
       <label for="floatingPassword">Password</label>
     </div>
 
-    <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+    <button class="btn btn-primary w-100 py-2" type="button" onclick="window.location.href='IndexAdmin.html'">Sign in</button>
     <p class="mt-5 mb-3 text-body-secondary">&copy;Lity App - 2024</p>
   </form>
 </main>

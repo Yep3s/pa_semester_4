@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Crear Guía Rápida | Lity App</title>
+    <title>Crear Experiencia | Lity App</title>
     
     <link rel="icon" type="image/x-icon" href="/Images/LityAppFavicon2.png" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="/css/nav-styles.css">
     <link rel="stylesheet" href="/css/navbar-fixed.css">
     <link rel="stylesheet" href="/css/hero-style.css">
-    <link rel="stylesheet" href="/css/animated-background.css">
+    <link rel="stylesheet" href="/css/animated-bg-experiencias.css">
 
 </head>
-<body class="animated-bg-pinky">
+<body class="animated-bg-experiencias">
 
     <!-- Barra de Navegación -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -72,41 +72,24 @@
       <div class="card p-4 shadow-lg w-100" style="max-width: 600px;">
         <img class="mb-4 w-50 d-block mx-auto" src="/Images/LityLogoLogin.png" alt="Logo Lity App">
 
-        <h3 class="text-center mb-4">Crear Guía Rápida</h3>
+        <h3 class="text-center mb-4">Crear Experiencia</h3>
         <form>
-          <!-- Tipo de Guía Rápida -->
+          <!-- Imágenes de la Guía -->
           <div class="mb-3">
-            <label for="tipoGuia" class="form-label">Tipo de Guía Rápida</label>
-            <select class="form-select" id="tipoGuia" required>
-              <option selected disabled>Selecciona un tipo de guía</option>
-              <option>Guía Rápida de Atracciones</option>
-              <option>Guía Rápida de Comida Típica</option>
-              <option>Guía Rápida de Transporte</option>
-              <option>Tips De Seguridad</option>
-            </select>
+            <label for="imagenesGuia" class="form-label">Imágenen De La Experiencia</label>
+            <input type="file" class="form-control" id="imagenesGuia" multiple>
           </div>
 
-          <!-- Título de la Guía -->
-          <div class="mb-3">
-            <label for="tituloGuia" class="form-label">Título de la Guía</label>
-            <input type="text" class="form-control" id="tituloGuia" placeholder="Ingresa el título de la guía" required>
-          </div>
 
           <!-- Párrafo de la Guía -->
           <div class="mb-3">
-            <label for="parrafoGuia" class="form-label">Párrafo de la Guía</label>
-            <textarea class="form-control" id="parrafoGuia" rows="4" placeholder="Escribe el contenido de la guía" required></textarea>
-          </div>
-
-          <!-- Imágenes de la Guía -->
-          <div class="mb-3">
-            <label for="imagenesGuia" class="form-label">Imágenes de la Guía</label>
-            <input type="file" class="form-control" id="imagenesGuia" multiple>
+            <label for="parrafoGuia" class="form-label">Párrafo de la Experiencia</label>
+            <textarea class="form-control" id="parrafoGuia" rows="4" placeholder="Escribe el contenido de la Experiencia" required></textarea>
           </div>
 
           <!-- Botón de Guardar -->
           <div class="text-center">
-            <button type="submit" class="btn btn-primary">Guardar Guia</button>
+            <button type="submit" class="btn btn-primary">Guardar Experiencia</button>
           </div>
         </form>
       </div>
